@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="cardContent">
+    <div class="title"> Vos Acteurs Favoris </div>
+    <div class="listing">
+      <em *ngIf="!loading"> chargement en cours ...</em>
+      <div *ngFor="let user of users" class="item">
+        <span>{{ user.name }}</span>
+      </div>
+    </div>
+    <div class="cardbtn">
+      <button (click)="showMsg()"> Cliquer moi 😊</button>
+    </div>
+  </div>
+</div>

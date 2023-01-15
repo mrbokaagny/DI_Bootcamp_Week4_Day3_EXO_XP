@@ -1,0 +1,52 @@
+.container{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.cardContent{
+  padding: .3em;
+  width: 300px;
+  border-radius: .2em;
+  background-color: rgba(0,0,0,.2);
+}
+
+.title{
+  text-align: center;
+  font-weight: bolder;
+  padding: .3em;
+}
+
+.listing{
+  padding: .2em;
+  width: 100%;
+  gap: .3em;
+  display: flex;
+  flex-direction: column;
+}
+
+.item{
+  padding: .3em;
+  border-radius: .3em;
+  background-color: aliceblue;
+}
+
+
+.cardbtn{
+  width: 100%;
+  text-align: center;
+  padding: .3em;
+}
+
+button{
+  border: none;
+  background-color: black;
+  cursor: pointer;
+  color: white;
+  font-weight: bolder;
+  padding: .2em;
+}
